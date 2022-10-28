@@ -170,6 +170,62 @@ nav ul li a{
     max-width: 24%;
     min-width: 24%;
     margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 2rem;
+}
+.item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.item .logo{
+    display: flex;
+    justify-content: space-between;
+    min-width: 33%;
+    max-width: 38%;
+    padding: .3rem;
+}
+.item img{
+    max-width: 25%;
+}
+.item .plus{
+    padding: .3rem;
+    font-size: small;
+    font-weight: 100;
+    color: gray;
+}
+.heading3{
+    font-size: 1rem;
+    padding: 1rem;
+}
+.item .perfume{
+    /* max-width: 45%; */
+    min-width: 35%;
+}
+.item .cosmetics{
+    min-width: 39%;
+}
+.item .bags{
+    min-width: 27%;
+}
+.checked{
+    color: orange;
+}
+.item2{
+    min-width: 100%;
+    display: flex;
+    padding: .4rem;
+}
+.image{
+    max-width: 20%;
+}
+.image img{
+    max-width: 100%;
+}
+.shop p span{
+    text-decoration: line-through;
 }
 
 
