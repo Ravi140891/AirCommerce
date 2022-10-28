@@ -127,33 +127,31 @@ nav ul li a{
     flex-wrap: wrap;
 }
 .choice {
-    min-width: 15rem;
-    max-width: 17rem;
+    max-width: 24%;
     display: flex;
     border: .2px solid lightgray;
-    padding: .2rem;
+    padding: .7rem;
     border-radius: 6px;
     margin: .5rem auto;
 }
 .left{
     display: flex;
-    min-width: 12rem;
 }
 .pic{
-    max-width: 6rem;
+    max-width: 25%;
     border: .2px solid lightgrey;
+    padding: .2rem;
+    padding-right: 0;
     background-color: lightgrey;
-    text-align: center;
-    padding: 0 .3rem;
 }
 .pic img{
-    max-width: 100%;
+    width: 100%;
 }
 .shop{
     padding-left: 0.2rem;
 }
 .shop h3{
-    font-size: .8rem;
+    font-size: .9rem;
 }
 .shop h5 a{
     text-decoration: none;
