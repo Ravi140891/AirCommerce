@@ -260,6 +260,7 @@ nav ul li a{
     max-height: max-content;
     padding: .2rem .4rem;
     box-sizing: border-box;
+    margin-bottom: 1rem;
 }
 .products .inner_pic{
     max-width: 30%;
@@ -269,10 +270,105 @@ nav ul li a{
 }
 .products p span{
     color: rgb(107, 161, 19);
+    font-weight: 600;
 }
 .text h4{
-    font-size: 1rem;
+    font-size: .9rem;
     /* line-height: 2rem; */
 }
-
-
+.deal{
+    border-bottom: .1px solid lightgray;
+    min-width: 100%;
+    padding: .3rem;
+    margin: 2rem 0;
+}
+.shampoo{
+    min-width: 100%;
+    max-height: max-content;
+    border: .1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 1rem;
+    line-height: 2rem;
+}
+.sham_pic{
+    max-width: 50%;
+}
+.sham_pic img{
+    max-width: 100%;
+}
+#price{
+    color: rgb(107, 161, 19) ;
+    font-size: 1.7rem;
+}
+#price span{
+    text-decoration: line-through;
+    color: grey;
+    font-size: 1.3rem;
+}
+.desc p{
+    font-size: .8rem;
+}
+.desc button{
+    background-color: rgb(107, 161, 19) ;
+    color: whitesmoke;
+    padding: .7rem 1.4rem;
+    border: none;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.value{
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+    max-width: 100%;
+}
+.mtr{
+    min-width: 100%;
+}
+.time{
+    display: flex;
+    min-width: 100%;
+    justify-content:flex-start;
+}
+.offer{
+    width: 15%;
+    background-color: lightgray;
+    padding: .3rem;
+    align-items: flex-start;
+    text-align: center;
+    border-radius: 6px;
+    margin-right: 1rem;
+    line-height: 1.3rem;
+}
+.new_prod{
+    padding: 1rem;
+    padding-top: 3rem;
+    border-bottom: .1px solid lightgray;
+    min-width: 100%;
+}
+.clothes{
+    max-width: 22%;
+    display: flex;
+    flex-direction: column;
+    border: .1px solid lightgray;
+    justify-content: center;
+    padding: .5rem;
+    margin: 1rem auto;
+    line-height: 1.6rem;
+}
+.clothes .pic1{
+    min-width: 50%;
+    align-self: center;
+}
+.clothes .pic1 img{
+    max-width: 100%;
+}
+.detail p span{
+    text-decoration: line-through;
+}
+.detail h5{
+    color: yellowgreen;
+    text-align: center;
+}
