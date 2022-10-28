@@ -127,8 +127,8 @@ nav ul li a{
     flex-wrap: wrap;
 }
 .choice {
-    min-width: 25%;
-    max-width: 30%;
+    min-width: 15rem;
+    max-width: 17rem;
     display: flex;
     border: .2px solid lightgray;
     padding: .2rem;
@@ -137,7 +137,7 @@ nav ul li a{
 }
 .left{
     display: flex;
-    min-width: 75%;
+    min-width: 12rem;
 }
 .pic{
     max-width: 25%;
