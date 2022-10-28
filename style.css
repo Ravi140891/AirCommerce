@@ -137,10 +137,10 @@ nav ul li a{
 }
 .left{
     display: flex;
-    min-width: 50%;
+    min-width: 70%;
 }
 .pic{
-    max-width: 30%;
+    max-width: 40%;
     border: .2px solid lightgrey;
     padding: 0 .3rem;
     padding-right: 0;
