@@ -140,14 +140,14 @@ nav ul li a{
     min-width: 12rem;
 }
 .pic{
-    max-width: 25%;
+    max-width: 6rem;
     border: .2px solid lightgrey;
     background-color: lightgrey;
     text-align: center;
     padding: 0 .3rem;
 }
 .pic img{
-    width: 100%;
+    max-width: 100%;
 }
 .shop{
     padding-left: 0.2rem;
