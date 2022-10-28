@@ -137,7 +137,7 @@ nav ul li a{
 }
 .left{
     display: flex;
-    min-width: 100%;
+    min-width: 50%;
 }
 .pic{
     max-width: 30%;
