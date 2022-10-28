@@ -125,6 +125,7 @@ nav ul li a{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    max-width: 100%;
 }
 .choice {
     max-width: 24%;
@@ -133,12 +134,13 @@ nav ul li a{
     padding: .7rem;
     border-radius: 6px;
     margin: .5rem auto;
+    box-sizing: border-box;
 }
 .left{
     display: flex;
 }
 .pic{
-    max-width: 25%;
+    max-width: 40%;
     border: .2px solid lightgrey;
     padding: .2rem;
     padding-right: 0;
@@ -229,13 +231,48 @@ nav ul li a{
 .shop p span{
     text-decoration: line-through;
 }
-.content .choice{
-    max-width: 50%;
-    display: flex;
-    /* flex-wrap: wrap; */
-    flex-direction: column;
-    justify-content: space-between;
-}
 
+.content{
+    min-width: 74%;
+    max-width: 75%;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+.catalog{
+    min-width: 33%;
+    padding: .5rem;
+}
+.catalog h3{
+    border-bottom: .1px solid lightgray;
+    padding-bottom: .5rem;
+    max-height: min-content;
+}
+.products{
+    border: .1px solid lightgray;
+    border-radius: 6px;
+    display: flex;
+    max-width: 32%; 
+    justify-content: space-between;
+    max-height: max-content;
+    padding: .2rem .4rem;
+    box-sizing: border-box;
+}
+.products .inner_pic{
+    max-width: 30%;
+}
+.inner_pic img{
+    max-width: 100%;
+}
+.products p span{
+    color: rgb(107, 161, 19);
+}
+.text h4{
+    font-size: 1rem;
+    /* line-height: 2rem; */
+}
 
 
