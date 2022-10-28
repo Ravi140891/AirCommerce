@@ -137,11 +137,12 @@ nav ul li a{
 }
 .left{
     display: flex;
+    min-width: 100%;
 }
 .pic{
-    max-width: 50%;
+    max-width: 30%;
     border: .2px solid lightgrey;
-    padding: .5rem;
+    padding: 0 .3rem;
     padding-right: 0;
     background-color: lightgrey;
     text-align: center;
