@@ -127,10 +127,11 @@ nav ul li a{
     flex-wrap: wrap;
 }
 .choice {
+    min-width: 25%;
     max-width: 30%;
     display: flex;
     border: .2px solid lightgray;
-    padding: .7rem;
+    padding: .2rem;
     border-radius: 6px;
     margin: .5rem auto;
 }
@@ -138,7 +139,7 @@ nav ul li a{
     display: flex;
 }
 .pic{
-    max-width: 30%;
+    max-width: 25%;
     border: .2px solid lightgrey;
     padding: .5rem;
     padding-right: 0;
