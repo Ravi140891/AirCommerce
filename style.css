@@ -169,6 +169,7 @@ nav ul li a{
     width: 100%;
     display: flex;
     height: max-content;
+    margin-bottom: 2rem;
     
 }
 .sidebar{
@@ -362,7 +363,6 @@ nav ul li a{
 }
 .clothes{
     max-width: 22%;
-    height: 345px;
     border: .1px solid lightgray;
     padding: .5rem;
     margin: 2rem auto;
@@ -381,4 +381,80 @@ nav ul li a{
 .detail h5{
     color: yellowgreen;
     text-align: center;
+}
+.testimonial{
+    max-width: 100%;
+    padding: 0 15rem;
+    display: flex;
+    padding-bottom: 2rem;
+}
+.article{
+    max-width: 24%;
+    min-width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 1.3rem;
+}
+.heading5{
+    max-width: 100%;
+    padding-bottom: 1rem ;
+    font-size: 1.5rem;
+    border-bottom: .1px solid lightgray;
+    margin-bottom: 1.5rem;
+    font-family: sans-serif;
+}
+.desc2{
+    max-width: 100%;
+    border: .1px solid lightgray;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.desc2 img{
+    max-width: 50%;
+    border-radius: 50%;
+}
+#name{
+    padding: 1rem;
+    text-align: center;
+}
+#name h6{
+    padding: .5rem;
+    font-weight: 600;
+    color: gray;
+    font-size: .7rem;
+}
+#quotes{
+    max-width: 12%;
+    padding-bottom: 1rem;
+}
+.desc2 p{
+    padding: 1rem;
+    text-align: center;
+}
+.offer2{
+    min-width: 44%;
+    max-width: 45%;
+    border: .2px solid lightgray;
+    max-height: 100%;
+    background-image: url(../images/cta-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent{
+   background-color: whitesmoke;
+   opacity: .7;
+   min-width: 50%;
+   min-height: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
