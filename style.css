@@ -351,14 +351,14 @@ nav ul li a{
 }
 .clothes{
     max-width: 22%;
-    height: 16%;
+    height: 14%;
     border: .1px solid lightgray;
     padding: .5rem;
     margin: 1rem auto;
     line-height: 1.6rem;
 }
 .clothes .pic1{
-    min-width: 50%;
+    min-width: 40%;
     align-self: center;
 }
 .clothes .pic1 img{
