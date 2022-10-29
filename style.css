@@ -438,7 +438,7 @@ nav ul li a{
 .offer2{
     min-width: 44%;
     max-width: 45%;
-    border: .2px solid lightgray;
+    border-radius: 8px;
     max-height: 100%;
     background-image: url(/cta-banner.jpg);
     background-size: cover;
@@ -457,4 +457,145 @@ nav ul li a{
    flex-direction: column;
    justify-content: center;
    align-items: center;
+}
+.discount{
+    padding: .4rem;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 5px;
+    font-size: .8rem;
+    margin-bottom: .6rem;
+}
+.child{
+    margin-bottom: .6rem;
+    font-size: .8rem;
+}
+.child h5{
+    font-size: .9rem;
+    color: grey;
+}
+.child h4{
+    color: black;
+    font-size: .8rem;
+}
+.box8{
+    max-width: 100%;
+    max-height: 100%;
+    border: .1px solid lightgray;
+}
+.desc3{
+    max-width: 100%;
+    max-height: max-content;
+    padding: 1rem .4rem;
+    margin: .4rem;
+}
+.delivery{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+    max-height: 2rem;
+}
+.logo5{
+    min-width: 30%;
+    max-width: 35%;
+    font-size: 2rem;
+    color: rgb(107, 161, 19);
+    padding: 0;
+    margin: 0;
+}
+.text5{
+    max-width: 100%;
+    font-size: .8rem;
+    text-align: center;
+    line-height: 1rem;
+}
+.text5 h3{
+    font-size: .9rem;
+}
+.last_sec{
+    padding: 0 16rem;
+}
+.showcase{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: .5rem;
+}
+.item4{
+    max-width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.pic6{
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+.pic6 img{
+    max-width: 100%;
+    border-radius: 6px;
+}
+.text6 h5{
+    color: rgb(107, 161, 19) ;
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
+.text6 h3{
+    font-size: .9rem;
+    margin-bottom: .5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer{
+    max-width: 100%;
+    padding: 0 15rem;
+    background-color: black;
+    border: .1px solid lightgray;
+}
+.part1{
+    padding: 3rem 1rem;
+    color: grey;
+}
+.part1 h4{
+    color:rgb(107, 161, 19) ;
+    padding-bottom: 1rem;
+}
+.part1 p{
+    padding: .3rem 0;
+}
+.list_head{
+    padding: 3rem 0;
+}
+.list_head h3{
+    color: whitesmoke;
+    font-size: .8rem;
+    padding-bottom: .4rem;
+}
+.list_head hr{
+    min-width: 30%;
+    max-width: 40%;
+    margin-bottom: .5rem;
+}
+.list_head ul li{
+    list-style: none;
+    color: grey;
+    padding: .3rem;
+}
+.foot1{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-between;
+}
+.payment{
+    padding: 2rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.pay{
+    color: grey;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 2rem;
 }
