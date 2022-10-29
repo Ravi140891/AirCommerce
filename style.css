@@ -139,6 +139,7 @@ nav ul li a{
 }
 .left{
     display: flex;
+    justify-content: space-between;
 }
 .pic{
     max-width: 40%;
@@ -178,6 +179,7 @@ nav ul li a{
     margin-right: 1rem;
     display: flex;
     flex-direction: column;
+    height: max-content;
 
 }
 .item{
