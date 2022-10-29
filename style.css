@@ -354,11 +354,13 @@ nav ul li a{
     min-height: max-content;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: stretch;
     padding-bottom: 2rem;
 }
 .clothes{
     max-width: 22%;
-    height: 14%;
+    height: 345px;
     border: .1px solid lightgray;
     padding: .5rem;
     margin: 1rem auto;
