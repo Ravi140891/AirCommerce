@@ -351,8 +351,11 @@ nav ul li a{
 }
 .clothes{
     max-width: 22%;
+    min-height: max-content;
     display: flex;
     flex-direction: column;
+    flex-flow: column;
+    flex-grow: inherit;
     border: .1px solid lightgray;
     justify-content: center;
     padding: .5rem;
