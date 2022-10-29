@@ -354,6 +354,7 @@ nav ul li a{
     min-height: max-content;
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 2rem;
 }
 .clothes{
     max-width: 22%;
