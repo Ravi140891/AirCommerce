@@ -349,6 +349,12 @@ nav ul li a{
     border-bottom: .1px solid lightgray;
     min-width: 100%;
 }
+.box2{
+    max-width: 100%;
+    min-height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+}
 .clothes{
     max-width: 22%;
     height: 14%;
