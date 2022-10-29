@@ -440,7 +440,7 @@ nav ul li a{
     max-width: 45%;
     border: .2px solid lightgray;
     max-height: 100%;
-    background-image: url(images\cta-banner.jpg);
+    background-image: url(..\images\cta-banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
