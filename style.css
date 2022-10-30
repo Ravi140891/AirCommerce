@@ -83,21 +83,30 @@
     div.sec2{
         display: none;
     }
+    .catalog{
+        display: none;
+    }
    
     div.content{
-        display: flex;
+        display: block;
         justify-content: space-between;
         max-width: 100%;
         margin-left: 0;
         padding-left: 0;
-    }
-    div.catalog{
         max-width: 100%;
     }
-    .pro6{
-        max-height: 7rem;
+    /* div.catalog{
+        max-width: 100%;
+    } */
+    div.products{
         max-width: 100%;
         padding: 0;
+    }
+    div.box2{
+        display: block;
+    }
+    div.clothes{
+        max-width: 100%;
     }
     section.testimonial{
         padding: 2rem;
