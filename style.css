@@ -130,6 +130,19 @@
     }
     footer.foot{
         padding: 2rem;
+        display: block;
+    }
+    div.showcase{
+        display: block;
+    }
+    div.item4{
+        max-width: 100%;
+    }
+    div.payment{
+        padding: 0;
+    }
+    footer.pay.foot{
+        padding-bottom: 5rem;
     }
     div.tab{
         display: block;
