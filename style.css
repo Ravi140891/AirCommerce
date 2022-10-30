@@ -3,6 +3,279 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+@media (min-width:0px) and (max-width: 649px) {
+    .container{
+        max-width: 100%;
+    }
+    div.head{
+        padding: 1rem 3rem ;
+    }
+    div.head h5{
+        text-align: center;
+        min-width: 100%;
+    }
+    #currency{
+        display: none;
+    }
+    .icons{
+        display: none;
+    }
+    div.head2{
+        padding: 1rem;
+        display: block;
+    }
+    div.head2 h1{
+        text-align: center;
+    }
+    .user{
+        display: none;
+    }
+    div#searchbar{
+        max-width: 100%;
+        min-width: 50%;
+    }
+    nav{
+        display: none;
+    }
+    main.main{
+        padding: 1rem;
+    }
+    div.text.text8{
+        padding: .3rem;
+    }
+    div.text.text8 h2{
+        font-size: 1rem;
+    }
+    div.text.text8 h1{
+        font-size: 1.5rem;
+    }
+    div.text.text8 h3{
+        font-size: 1rem;
+    }
+    div.text.text8 button{
+        padding: .3rem .7rem;
+    }
+    div.options{
+        display: block;
+    }
+    div.choice{
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    div.left{
+        max-width: 70%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    section.mid-sec.middle{
+        padding: 2rem;
+        max-width: 100%;
+        display: block;
+        
+    }
+    div.sec1{
+        display: none;
+    }
+    div.sec2{
+        display: none;
+    }
+   
+    div.content{
+        display: flex;
+        justify-content: space-between;
+        max-width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    div.catalog{
+        max-width: 100%;
+    }
+    .pro6{
+        max-height: 7rem;
+        max-width: 100%;
+        padding: 0;
+    }
+    section.testimonial{
+        padding: 2rem;
+        display: flex;
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+    div.article{
+        min-width: 100%;
+        margin: auto;
+    }
+    div.offer2{
+        min-width: 100%;
+        padding: 2rem ;
+        height: 20rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    section.last_sec{
+        padding: 2rem;
+    }
+    footer.foot{
+        padding: 2rem;
+    }
+    div.tab{
+        display: block;
+        position: fixed;
+        bottom: 0;
+        min-width: 100%;
+        font-size: 2rem;
+        background-color: rgb(34, 92, 73);
+        padding: 1rem 0;
+        color: whitesmoke;
+        text-align: center;
+        letter-spacing: 1rem;
+    }
+
+
+}
+@media (min-width: 650px) and (max-width: 1024px)  {
+    .container{
+        max-width: 100%;
+    }
+    .icons{
+        display: none;
+    }
+    div.head{
+        padding: 1rem 3rem;
+    }
+    div.head2{
+        padding: 1rem 2rem;
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    div.head2 h1{
+        max-width: 35%;
+        font-size: 1.2rem;
+    }
+    .user{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    main.main{
+        padding: 1rem 2rem;
+    }
+    div.text.text8{
+        padding: 2rem;
+    }
+    div.choice{
+        min-width: 43%;
+        margin: .6rem;
+    }
+    section.mid-sec.middle{
+        padding: 1rem 2rem;
+        display: block;
+    }
+    .sec1{
+        display: none;
+    }
+    .sec2{
+        display: none;
+    }
+    div.content.contents{
+        max-width: 100%;
+    }
+    section.testimonial{
+        padding: 1rem;
+        display: block;
+    }
+    div.article{
+        min-width: 100%;
+        margin: auto;
+    }
+    div.offer2{
+        min-width: 100%;
+        padding: 2rem ;
+        height: 20rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+     section.last_sec{
+        padding: 2rem;
+    }
+    footer.foot{
+        padding: 2rem;
+    }
+    div.tab{
+        display: block;
+        position: fixed;
+        bottom: 0;
+        min-width: 100%;
+        font-size: 3rem;
+        background-color: rgb(34, 92, 73);
+        padding: 1rem 0;
+        color: whitesmoke;
+        text-align: center;
+        letter-spacing: 2rem;
+    }
+    
+
+}
+
+
+@media (min-width:1025px) and (max-width:1330px) {
+.container {
+    max-width: 100vw;
+    /* padding: 0 15rem; */
+}
+.tab{
+    display: none;
+}
+
+div.head {
+    padding: 1rem 3rem;
+}
+div.head2{
+    padding: 1rem 3rem;
+}
+.main{
+    padding: 1rem 3rem;
+}
+
+section.mid-sec{
+    padding: 0 3rem;
+    /* width: 100%;
+    display: flex;
+    height: max-content;
+    margin-bottom: 2rem; */
+    
+}
+
+section.testimonial{
+    padding: 0 3rem;
+    
+}
+
+
+
+
+section.last_sec{
+    padding: 0 4rem;
+}
+
+div.part1{
+    padding: 3rem 3rem;
+}
+
+
+footer.foot1{
+    padding: 0 3rem;
+}
+
+
+}
+
 .container {
     max-width: 100vw;
     /* padding: 0 15rem; */
@@ -601,194 +874,4 @@ footer{
     font-weight: 600;
     text-align: center;
     padding-bottom: 2rem;
-}
-
-
-@media (min-width:350px) and (max-width: 760px){
-    .container{
-        max-width: 90vw;
-    }
-    .head .icons{
-        display: none;
-    }
-    .head #currency{
-        display: none;
-    }
-    .head{
-        padding: 1rem 3rem;
-    }
-    .head h5{
-        text-align: center;
-    }
-    .head2 .user{
-        display: none;
-    }
-    .head2{
-        display: block;
-        padding: 1rem 2rem;
-    }
-    .head2 h1{
-        max-width: 100vw;
-        text-align: center;
-    }
-    #searchbar{
-    border: 0.3px solid grey;
-    padding: 0.5rem 1rem;
-    min-width: 70vw;
-    max-width: 90vw;
-    display: flex;
-    justify-content: space-between;
-    border-radius: 10px;
-    }
-    nav{
-        display: none;
-    }
-    main{
-        padding: 1rem 1rem;
-    }
-    .banner .text{
-        padding: 0;
-    }
-    .banner .text h2{
-        font-size: 1rem;
-    }
-    .banner .text h1{
-        font-size: 1.5rem;
-    }
-    .options{
-        display: block;
-        padding: 0;
-    }
-    .choice{
-        max-width: 100vw;
-    }
-    .sidebar{
-        display: none;
-    }
-    .mid-sec{
-        padding: .5rem;
-    }
-
-    .content{
-        max-width: 100vw;
-        min-height: max-content;
-    }
-    .content .catalog{
-        display: none;
-    }
-    .content{
-        display: block;
-    }
-    .content .products{
-        max-width: 100vw;
-    }
-    .testimonial{
-        display: none;
-    }
-    .last_sec{
-        display: none;
-    }
-    footer{
-        display: block;
-        padding: 0;
-    }
-    .tab{
-    display: block;
-    min-width: 95vw;
-    text-align: center;
-    height: max-content;
-    font-size: 2rem;
-    position: fixed;
-    bottom: 0;
-    border: .2px solid lightgray;
-    padding: 1rem;
-    color: rgb(107, 161, 19);
-    background-color: rgb(198, 201, 193) ;
-}
-
-}
-@media (min-width: 768px) and (max-width: 1024px)  {
-    .container{
-        max-width: 90vw;
-    }
-    .head .icons{
-        display: none;
-    }
-    .head{
-        max-width: 100vw;
-        display: flex;
-        justify-content: space-between;
-        padding: 0 1rem;
-    }
-    .user{
-        display: none;
-    }
-        
-    .head2{
-        padding: 0 .5rem;
-        max-width: 100vw;
-        display: flex;
-        justify-content: space-between;
-    }
-    nav{
-        display: none;
-    }
-    main{
-        padding: 0 .5rem;
-        
-    }
-    .banner{
-        display: block;
-        min-width: 100vw;
-        padding: 0 .5rem;
-        margin: 0;
-    }
-    .banner .text {
-    position: absolute;
-    z-index: 1;
-    padding: 4rem;
-}
-.options{
-    min-width: 50%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: 1;
-}
-.choice{
-    min-width: 50%;
-    max-height: max-content;
-}
-.sidebar{
-    display: none;
-}
-.mid-sec{
-    padding: 0;
-}
-.content{
-    display: flex;
-    max-width: 100vw;
-    justify-content: space-between;
-}
-.testimonial{
-    padding: 0;
-}
-.last_sec{
-    padding: 0;
-}
-footer{
-    padding: 0.3rem;
-}
-.tab{
-    display: block;
-    max-width: 100vw;
-    height: max-content;
-    font-size: 3rem;
-    position: fixed;
-    bottom: 0;
-    left: 30vw;
-    border: .2px solid lightgray;
-    padding: 1rem 5rem;
-    color: rgb(107, 161, 19);
-    background-color: rgb(198, 201, 193) ;
-}
 }
