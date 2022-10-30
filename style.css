@@ -430,6 +430,7 @@ nav ul li a{
 .choice {
     max-width: 24%;
     display: flex;
+    justify-content: space-between;
     border: .2px solid lightgray;
     padding: .7rem;
     border-radius: 6px;
@@ -439,9 +440,10 @@ nav ul li a{
 .left{
     display: flex;
     justify-content: space-between;
+    max-width: 70%;
 }
 .pic{
-    max-width: 40%;
+    max-width: 50%;
     border: .2px solid lightgrey;
     padding: .2rem;
     padding-right: 0;
