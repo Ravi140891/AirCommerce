@@ -230,6 +230,9 @@
     footer.foot{
         padding: 2rem;
     }
+    footer.pay.foot{
+        padding-bottom: 6rem;
+    }
     div.tab{
         display: block;
         position: fixed;
@@ -630,7 +633,14 @@ nav ul li a{
     max-width: 100%;
 }
 .mtr{
-    min-width: 100%;
+    width: 100%;
+    border: .2px solid lightgray;
+    border-radius: 25px;
+}
+.inner_mtr{
+    width: 40%;
+    height: 4px;
+    background-color: rgb(107, 161, 19);
 }
 .time{
     display: flex;
